@@ -1,5 +1,5 @@
 .header {
-  background-color: rgb(167, 75, 4);
+  background-color: rgb(254, 155, 98);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -45,6 +45,7 @@ a {
   text-decoration: none;
   border-radius: 4px;
   color: white;
+ 
 }
 .header__item-footer {
   padding: 5px;

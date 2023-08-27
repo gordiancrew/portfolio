@@ -5,7 +5,7 @@ function Header() {
     const textArr = window.location.href.toString().split('/');
     const text = textArr[textArr.length - 1];
   const menuArr = [
-    { name: "main", url: "", link: "/" },
+    { name: "summary", url: "", link: "/" },
     { name: "projects", url: "projects", link: "/projects" },
   ];
   return (

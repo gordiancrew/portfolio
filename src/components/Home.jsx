@@ -18,8 +18,8 @@ function Home() {
           <h2>Uladzimir Kazantsau</h2>
           <h3>front-end developer</h3>
         </div>
-        <div className="content-box">
-          <h3>Обо мне:</h3>
+        <div className="content-box content-box-down">
+          <h4>Обо мне:</h4>
           {SUMMARY_TEXT}</div>
       </div>
     </>

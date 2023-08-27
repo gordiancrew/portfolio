@@ -6,7 +6,9 @@ function Header() {
     const text = textArr[textArr.length - 1];
   const menuArr = [
     { name: "summary", url: "", link: "/" },
+    { name: "skills", url: "skills", link: "/skills" },
     { name: "projects", url: "projects", link: "/projects" },
+   
   ];
   return (
     <>

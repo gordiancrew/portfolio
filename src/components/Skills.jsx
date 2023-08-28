@@ -11,8 +11,8 @@ function Skills() {
         <div className="content-box content-box-down box-list">
           <h3 style={{ color: 'rgb(254, 155, 98) '}}>Образование:</h3>
           <h4>⬥БГУФК 2006-2011</h4>
-          <h4>⬥Epam UpSkill lab Java development 2020-2021</h4>
-          <h4>⬥RS School JS Front-end development 2022</h4>
+          <h4>⬥Epam UpSkill lab Java  2020-2021</h4>
+          <h4>⬥RS School JS Front-end  2022</h4>
           <h4>⬥RS School React 2023</h4>
         </div>
         <div className="content-box content-box-down box-list">

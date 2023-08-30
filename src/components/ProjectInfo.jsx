@@ -1,16 +1,21 @@
 import Footer from "./utils/Footer";
 import Header from "./utils/Header";
-import "./Home.css";
+import "./Info.css";
+import { projectData } from "../data/ProjectData";
 
-
-function ProjectInfo() {
+function ProjectInfo(props) {
   return (
     <>
       <Header />
       <Footer />
       <div className="content">
-       Project Info
+        <div className="box-image">
+          <img className="image" src={projectData[props.project].img} />
+        </div>
+        <div className="box-description"></div>
+        
       </div>
+      <div className="box-info"><div>jjhjhjhhjh</div> <div>jjhjhjhhjh</div></div>
     </>
   );
 }
